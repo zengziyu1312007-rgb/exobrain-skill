@@ -1,0 +1,499 @@
+{
+  "version": "0.3",
+  "count": 24,
+  "confirmed_on": "2026-11-09",
+  "scope": "总规模24保持；保留原片3人。人物方法作为各职能团的分析依据；职责是本产品归纳，不等同本人参与或认可。",
+  "members": [
+    {
+      "group": "产品创业团",
+      "id": "jobs",
+      "name": "乔布斯",
+      "focus": "聚焦核心价值",
+      "question": "为了做好这件事，要明确暂停哪件事？",
+      "source_url": "https://book.stevejobsarchive.com/",
+      "source_title": "原始讲话与邮件选集；1997员工讲话",
+      "source_status": "已读相关内容",
+      "retained_from_reference": true,
+      "function_id": "product",
+      "function_role": "聚焦核心体验，明确要保留什么、放弃什么",
+      "secondary_function_ids": []
+    },
+    {
+      "group": "商业决策团",
+      "id": "buffett",
+      "name": "巴菲特",
+      "focus": "长期价值与能力边界",
+      "question": "这件事的长期价值是什么，哪些部分超出了你的理解？",
+      "source_url": "https://www.berkshirehathaway.com/letters/1996.html",
+      "source_title": "1996股东信；能力圈",
+      "source_status": "已读相关内容",
+      "retained_from_reference": true,
+      "function_id": "business",
+      "function_role": "检查长期价值、机会成本与能力边界",
+      "secondary_function_ids": []
+    },
+    {
+      "group": "人生方向团",
+      "id": "wang",
+      "name": "王阳明",
+      "focus": "愿望落实到行动",
+      "question": "你说想要这件事，今天愿意为它做哪个具体动作？",
+      "source_url": "https://zh.wikisource.org/wiki/傳習錄/卷上",
+      "source_title": "传习录上卷；知与行",
+      "source_status": "原典转录页已读",
+      "retained_from_reference": true,
+      "function_id": "direction",
+      "function_role": "检查想要的方向能否落实到本人愿意采取的行动",
+      "secondary_function_ids": [
+        "learning"
+      ]
+    },
+    {
+      "group": "商业决策团",
+      "id": "munger",
+      "name": "芒格",
+      "focus": "逆向思考与激励",
+      "question": "假设这件事失败，最可能是哪条路径、哪个激励出了问题？",
+      "source_url": "https://travishellstrom.com/speeches/charlie-munger-usc-2007/",
+      "source_title": "2007 USC演讲；第三方转录",
+      "source_status": "已读转录；非官方逐字核验",
+      "retained_from_reference": false,
+      "function_id": "business",
+      "function_role": "从失败倒推，检查风险和激励是否扭曲",
+      "secondary_function_ids": []
+    },
+    {
+      "group": "趋势研判团",
+      "id": "musk",
+      "name": "马斯克",
+      "focus": "拆成本与约束",
+      "question": "哪些限制有硬依据，哪些流程可以重新设计？",
+      "source_url": "https://www.tesla.com/secret-master-plan",
+      "source_title": "2006 Master Plan；成本、效率和推进路径",
+      "source_status": "已读相关内容；不作为第一性原理逐字稿",
+      "retained_from_reference": false,
+      "function_id": "trends",
+      "function_role": "拆解行业中的硬约束、成本和可重做的路径",
+      "secondary_function_ids": [
+        "product"
+      ]
+    },
+    {
+      "group": "产品创业团",
+      "id": "altman",
+      "name": "Sam Altman",
+      "focus": "技术机会与持续积累",
+      "question": "这次投入会留下什么能随时间放大的能力或产品？",
+      "source_url": "https://blog.samaltman.com/how-to-be-successful",
+      "source_title": "How To Be Successful",
+      "source_status": "已读相关内容",
+      "retained_from_reference": false,
+      "function_id": "product",
+      "function_role": "检查创业机会是否能留下可持续积累的产品与能力",
+      "secondary_function_ids": [
+        "trends"
+      ]
+    },
+    {
+      "group": "AI落地团",
+      "id": "liang",
+      "name": "梁文锋",
+      "focus": "原创问题与研究投入",
+      "question": "你在解决哪个真实问题，创新是否有可检查的依据？",
+      "source_url": "https://www.36kr.com/p/2872793466982535",
+      "source_title": "2024暗涌原始专访；原创创新",
+      "source_status": "已读原始访谈",
+      "retained_from_reference": false,
+      "function_id": "ai_delivery",
+      "function_role": "检查技术问题是否值得原创探索，创新依据是否可查",
+      "secondary_function_ids": []
+    },
+    {
+      "group": "趋势研判团",
+      "id": "dario",
+      "name": "Dario Amodei",
+      "focus": "AI价值与限制条件",
+      "question": "即使能力变强，哪些现实瓶颈仍会限制收益？",
+      "source_url": "https://darioamodei.com/essay/machines-of-loving-grace",
+      "source_title": "Machines of Loving Grace",
+      "source_status": "已读相关内容；未来情景不是事实",
+      "retained_from_reference": false,
+      "function_id": "trends",
+      "function_role": "并列AI发展的潜力、限制条件与不确定性",
+      "secondary_function_ids": []
+    },
+    {
+      "group": "趋势研判团",
+      "id": "huang",
+      "name": "黄仁勋",
+      "focus": "全链条依赖与瓶颈",
+      "question": "模型之外，数据、算力、部署和分发哪一层卡住了？",
+      "source_url": "https://blogs.nvidia.com/blog/ai-5-layer-cake/",
+      "source_title": "AI Is a 5-Layer Cake；本人文章",
+      "source_status": "已读相关内容",
+      "retained_from_reference": false,
+      "function_id": "trends",
+      "function_role": "检查从基础设施到应用的依赖、瓶颈与机会位置",
+      "secondary_function_ids": [
+        "ai_delivery"
+      ]
+    },
+    {
+      "group": "AI落地团",
+      "id": "fei",
+      "name": "李飞飞",
+      "focus": "人的需求与真实场景",
+      "question": "这项AI能力具体帮助谁，对方的使用处境是什么？",
+      "source_url": "https://hai.stanford.edu/people/fei-fei-li",
+      "source_title": "Stanford HAI人物与以人为中心的研究入口",
+      "source_status": "机构研究入口；具体表述需查原文",
+      "retained_from_reference": false,
+      "function_id": "ai_delivery",
+      "function_role": "检查AI方案是否回应具体人的场景与需要",
+      "secondary_function_ids": [
+        "product"
+      ]
+    },
+    {
+      "group": "AI落地团",
+      "id": "ng",
+      "name": "吴恩达",
+      "focus": "拆小项目与反馈",
+      "question": "能否先做一个能检查输出的小项目，而非先学完所有东西？",
+      "source_url": "https://www.deeplearning.ai/courses/build-with-andrew",
+      "source_title": "本人授课的项目实践课程",
+      "source_status": "官方课程检索元数据；页面直开403",
+      "retained_from_reference": false,
+      "function_id": "ai_delivery",
+      "function_role": "把AI任务拆成小项目，安排可检查的实践反馈",
+      "secondary_function_ids": [
+        "learning"
+      ]
+    },
+    {
+      "group": "AI落地团",
+      "id": "karpathy",
+      "name": "Andrej Karpathy",
+      "focus": "从最小基线逐步验证",
+      "question": "最简单的基线跑通了吗，错误出现在哪一步？",
+      "source_url": "https://karpathy.github.io/2019/04/25/recipe/",
+      "source_title": "A Recipe for Training Neural Networks",
+      "source_status": "已读相关内容；跨领域使用为类比",
+      "retained_from_reference": false,
+      "function_id": "ai_delivery",
+      "function_role": "建立最小基线，逐步定位实现和数据中的错误",
+      "secondary_function_ids": [
+        "learning"
+      ]
+    },
+    {
+      "group": "AI落地团",
+      "id": "hassabis",
+      "name": "Demis Hassabis",
+      "focus": "重大问题与明确检验",
+      "question": "这个难题能拆成什么可评估的中间目标？",
+      "source_url": "https://deepmind.google/blog/alphafold-a-solution-to-a-50-year-old-grand-challenge-in-biology/",
+      "source_title": "本人联署的AlphaFold项目文章",
+      "source_status": "已读团队原始文章；不反推私下信念",
+      "retained_from_reference": false,
+      "function_id": "ai_delivery",
+      "function_role": "把复杂研究任务拆成中间目标与明确评价",
+      "secondary_function_ids": [
+        "learning"
+      ]
+    },
+    {
+      "group": "学习研究团",
+      "id": "turing",
+      "name": "艾伦·图灵",
+      "focus": "把抽象能力变成测试",
+      "question": "什么可观察的表现，能证明它确实完成了这个任务？",
+      "source_url": "https://turingarchive.kings.cam.ac.uk/computing-machinery-and-intelligence",
+      "source_title": "1950 Computing Machinery and Intelligence原稿档案",
+      "source_status": "档案元数据；未逐页核原稿",
+      "retained_from_reference": false,
+      "function_id": "learning",
+      "function_role": "把抽象能力问题转成可观察的测试",
+      "secondary_function_ids": []
+    },
+    {
+      "group": "学习研究团",
+      "id": "shannon",
+      "name": "克劳德·香农",
+      "focus": "信息与噪声的区分",
+      "question": "哪些信息真的能改变选择，哪些只是在增加噪声？",
+      "source_url": "https://www.cs.yale.edu/homes/yry/readings/general/shannon1948.pdf",
+      "source_title": "1948 A Mathematical Theory of Communication",
+      "source_status": "已读原论文开篇；此问题为类比，非信息论定理应用",
+      "retained_from_reference": false,
+      "function_id": "learning",
+      "function_role": "借信息与噪声视角筛选真正影响判断的内容",
+      "secondary_function_ids": []
+    },
+    {
+      "group": "学习研究团",
+      "id": "feynman",
+      "name": "理查德·费曼",
+      "focus": "诚实验证与反证",
+      "question": "什么结果会证明你目前的解释是错的？",
+      "source_url": "https://calteches.library.caltech.edu/51/2/CargoCult.htm",
+      "source_title": "1974 Cargo Cult Science",
+      "source_status": "已读原始讲话文本",
+      "retained_from_reference": false,
+      "function_id": "learning",
+      "function_role": "检查是否真正理解，并寻找能推翻当前解释的证据",
+      "secondary_function_ids": [
+        "ai_delivery"
+      ]
+    },
+    {
+      "group": "产品创业团",
+      "id": "bezos",
+      "name": "贝索斯",
+      "focus": "可逆决定与快速纠错",
+      "question": "能不能先做一个可撤回的小试验，错了如何收回？",
+      "source_url": "https://www.aboutamazon.com/news/company-news/2016-letter-to-shareholders",
+      "source_title": "2016股东信；High-Velocity Decision Making",
+      "source_status": "已读相关内容",
+      "retained_from_reference": false,
+      "function_id": "product",
+      "function_role": "从用户价值出发，区分可逆试验与难以撤回的承诺",
+      "secondary_function_ids": [
+        "business"
+      ]
+    },
+    {
+      "group": "人生方向团",
+      "id": "naval",
+      "name": "纳瓦尔",
+      "focus": "独特经验与复制能力",
+      "question": "你有什么难复制的经验，如何让一次投入重复发挥作用？",
+      "source_url": "https://nav.al/specific-knowledge",
+      "source_title": "Arm Yourself With Specific Knowledge",
+      "source_status": "已读本人对谈",
+      "retained_from_reference": false,
+      "function_id": "direction",
+      "function_role": "识别个人独特经验以及值得长期积累的能力",
+      "secondary_function_ids": [
+        "business"
+      ]
+    },
+    {
+      "group": "产品创业团",
+      "id": "graham",
+      "name": "Paul Graham",
+      "focus": "先服务真实用户",
+      "question": "能否亲自帮助第一批用户，把真实需求做明白？",
+      "source_url": "https://paulgraham.com/ds.html",
+      "source_title": "Do Things that Do not Scale",
+      "source_status": "已读本人文章",
+      "retained_from_reference": false,
+      "function_id": "product",
+      "function_role": "设计对第一批真实用户的手动服务和需求验证",
+      "secondary_function_ids": []
+    },
+    {
+      "group": "人生方向团",
+      "id": "drucker",
+      "name": "彼得·德鲁克",
+      "focus": "发挥长处与贡献",
+      "question": "这件事如何发挥你的长处、形成具体贡献？",
+      "source_url": "https://hbr.org/2005/01/managing-oneself",
+      "source_title": "Managing Oneself",
+      "source_status": "出版方作者文章；可读内容有限",
+      "retained_from_reference": false,
+      "function_id": "direction",
+      "function_role": "检查职业长处、个人贡献与目标是否相配",
+      "secondary_function_ids": [
+        "systems"
+      ]
+    },
+    {
+      "group": "商业决策团",
+      "id": "kahneman",
+      "name": "丹尼尔·卡尼曼",
+      "focus": "框架效应与直觉偏差",
+      "question": "换一种描述，同一个选择会不会显得完全不同？",
+      "source_url": "https://kahneman.scholar.princeton.edu/publications",
+      "source_title": "作者论文目录；Maps of Bounded Rationality",
+      "source_status": "作者目录与原论文检索；非本轮完整复核",
+      "retained_from_reference": false,
+      "function_id": "business",
+      "function_role": "检查描述方式、直觉和认知偏差对选择的影响",
+      "secondary_function_ids": []
+    },
+    {
+      "group": "系统效率团",
+      "id": "simon",
+      "name": "赫伯特·西蒙",
+      "focus": "有限资源中的可接受解",
+      "question": "在时间与信息有限时，什么条件足够支持先行动？",
+      "source_url": "https://www.nobelprize.org/prizes/economic-sciences/1978/simon/lecture/",
+      "source_title": "Rational Decision-Making in Business Organizations",
+      "source_status": "诺奖入口直开403；原文待再次核验",
+      "retained_from_reference": false,
+      "function_id": "systems",
+      "function_role": "在时间和信息有限时设定可接受解与停止搜索条件",
+      "secondary_function_ids": [
+        "business"
+      ]
+    },
+    {
+      "group": "系统效率团",
+      "id": "meadows",
+      "name": "多内拉·梅多斯",
+      "focus": "系统反馈与杠杆点",
+      "question": "你改的是表面指标，还是会持续制造问题的规则？",
+      "source_url": "https://donellameadows.org/archives/leverage-points-places-to-intervene-in-a-system/",
+      "source_title": "Leverage Points",
+      "source_status": "已读本人原文档案",
+      "retained_from_reference": false,
+      "function_id": "systems",
+      "function_role": "检查系统反馈、规则与可尝试的杠杆点",
+      "secondary_function_ids": []
+    },
+    {
+      "group": "学习研究团",
+      "id": "hamming",
+      "name": "理查德·汉明",
+      "focus": "重要问题与长期投入",
+      "question": "如果这件事重要，日程里给它留下了多少认真工作的时间？",
+      "source_url": "https://www.cs.virginia.edu/~robins/YouAndYourResearch.html",
+      "source_title": "1986 You and Your Research",
+      "source_status": "已读原始演讲转录",
+      "retained_from_reference": false,
+      "function_id": "learning",
+      "function_role": "选择值得长期研究的问题，安排持续投入",
+      "secondary_function_ids": []
+    }
+  ],
+  "functions": [
+    {
+      "id": "direction",
+      "name": "人生方向团",
+      "purpose": "梳理价值取舍、职业长处和个人长期方向",
+      "triggers": [
+        "转行",
+        "职业选择",
+        "个人定位",
+        "长期目标"
+      ],
+      "output": "适合自己的选择标准、取舍理由与一个起步动作",
+      "member_ids": [
+        "wang",
+        "drucker",
+        "naval"
+      ]
+    },
+    {
+      "id": "business",
+      "name": "商业决策团",
+      "purpose": "检查价值、风险、能力边界与判断偏差",
+      "triggers": [
+        "合作",
+        "项目取舍",
+        "资源投入",
+        "商业模式"
+      ],
+      "output": "选项比较、关键假设、失败路径与退出条件",
+      "member_ids": [
+        "buffett",
+        "munger",
+        "kahneman"
+      ]
+    },
+    {
+      "id": "product",
+      "name": "产品创业团",
+      "purpose": "找到用户需要的价值，设计产品并验证第一批需求",
+      "triggers": [
+        "产品",
+        "创业",
+        "用户需求",
+        "增长",
+        "服务设计"
+      ],
+      "output": "目标用户、核心成果、最小试验与首批用户验证方案",
+      "member_ids": [
+        "jobs",
+        "bezos",
+        "graham",
+        "altman"
+      ]
+    },
+    {
+      "id": "ai_delivery",
+      "name": "AI落地团",
+      "purpose": "把真实任务拆成可实现、可评估的AI方案",
+      "triggers": [
+        "AI项目",
+        "技术路线",
+        "模型应用",
+        "自动化",
+        "AI工作流"
+      ],
+      "output": "任务拆解、数据与工具要求、最小基线、评价标准和已知瓶颈",
+      "member_ids": [
+        "liang",
+        "ng",
+        "karpathy",
+        "hassabis",
+        "fei"
+      ]
+    },
+    {
+      "id": "trends",
+      "name": "趋势研判团",
+      "purpose": "分析技术变化、产业依赖与机会成立的条件",
+      "triggers": [
+        "未来变化",
+        "行业机会",
+        "趋势",
+        "技术发展"
+      ],
+      "output": "多个发展情景、变化证据、关键依赖与值得跟踪的信号",
+      "member_ids": [
+        "musk",
+        "huang",
+        "dario"
+      ]
+    },
+    {
+      "id": "learning",
+      "name": "学习研究团",
+      "purpose": "理解知识、筛选信息、提出问题并设计检验",
+      "triggers": [
+        "学技能",
+        "读论文",
+        "研究问题",
+        "知识理解",
+        "信息筛选"
+      ],
+      "output": "问题定义、学习练习、证据缺口与检验方法",
+      "member_ids": [
+        "feynman",
+        "hamming",
+        "turing",
+        "shannon"
+      ]
+    },
+    {
+      "id": "systems",
+      "name": "系统效率团",
+      "purpose": "找出流程堵点，在有限时间和信息下改善行动顺序",
+      "triggers": [
+        "效率",
+        "时间不够",
+        "流程",
+        "组织协作",
+        "系统问题"
+      ],
+      "output": "流程与反馈关系、瓶颈、优先级与可逆的改进试验",
+      "member_ids": [
+        "meadows",
+        "simon"
+      ]
+    }
+  ],
+  "classification_status": "用户要求按领域和职责分团；七团及具体分工为本轮初版，可按反馈调整。"
+}

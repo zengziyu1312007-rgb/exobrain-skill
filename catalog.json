@@ -1,0 +1,57 @@
+{
+  "version": "0.2.0",
+  "repository": "https://github.com/zengziyu1312007-rgb/exobrain-skill",
+  "categories": [
+    {
+      "id": "core",
+      "name": "外脑核心"
+    },
+    {
+      "id": "methods",
+      "name": "名人方法论"
+    },
+    {
+      "id": "daily",
+      "name": "日常工具",
+      "children": [
+        {
+          "id": "account-safety",
+          "name": "账号安全"
+        }
+      ]
+    }
+  ],
+  "skills": [
+    {
+      "name": "my-exobrain",
+      "title": "我的外脑",
+      "version": "0.2.0",
+      "category": [
+        "core"
+      ],
+      "path": "skills/my-exobrain",
+      "summary": "初始化、记录、找回、纠错与复盘"
+    },
+    {
+      "name": "exobrain-council",
+      "title": "私人智囊团",
+      "version": "0.3.0",
+      "category": [
+        "methods"
+      ],
+      "path": "skills/exobrain-council",
+      "summary": "24位人物、七个职能团，按问题选择方法"
+    },
+    {
+      "name": "claude-account-safety",
+      "title": "Claude账号安全",
+      "version": "1.1.0",
+      "category": [
+        "daily",
+        "account-safety"
+      ],
+      "path": "skills/claude-account-safety",
+      "summary": "账号保护、异常自查与官方申诉"
+    }
+  ]
+}

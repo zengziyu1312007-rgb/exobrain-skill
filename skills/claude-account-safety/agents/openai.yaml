@@ -1,0 +1,4 @@
+interface:
+  display_name: "Claude账号安全"
+  short_description: "分清Claude登录、额度、账单与账号限制问题，提供自查和官方申诉路径"
+  default_prompt: "用 $claude-account-safety 帮我排查这个Claude账号问题，先看报错原文。"
